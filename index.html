@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="ht.tps://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
     <link href="style.css" rel="stylesheet"/>
-    <title>Zomato|Not Official</title>
+    <title>Zomato | Not Official</title>
 </head>
 <body>
     <header>
@@ -26,13 +26,50 @@
         <section class="container__hero">
             <div class="container__main__img">
                 <img src="./assets/hero.jpg" alt="hero img" class="main__img" />
-                <!--<img src="./assets/svg/heroShape.svg" alt="hero bg1" class="bg__img" />-->
+                <div class="container__main__img__bg">
+                    <img src="./assets/svg/heroShape.svg" alt="bg shape" class="img__bg__shape">
+                    <img src="./assets/svg/herobgpattren.svg" alt="bg pattern"  class="img__bg__pattern">
+                </div>
             </div>
             <div class="container__main__description">
                 <h1 class="main__description">
                     Order food from favourite restaurants near you.
                 </h1>
                 <button class="primary__button">Order Now</button>
+            </div>
+        </section>
+        <section class="container__explore">
+            <div class="container__diagonal__background"></div>
+            <h1 class="explore__title">
+                Explore Our Menu
+            </h1>
+            <div class="explore__menu">
+                <div class="explore__menu__card__list">
+                    <div class="explore__menu__card">
+                        <img src="./assets/burger.jpg" alt="burger card" class="menu__card__image" />
+                        <div class="explore__menu__card__description">
+                            <h1 class="menu__card__title">Burgers</h1>
+                            <p>Burger King, Mcdonalds, Burger Place <span style="color: red;">+3</span></p>
+                        </div>
+                    </div>
+                    <div class="explore__menu__card" id="menu__pizza">
+                        <img src="./assets/pizza.jpg" alt="pizza card" class="menu__card__image" />
+                        <div class="explore__menu__card__description">
+                            <h1 class="menu__card__title">Pizza</h1>
+                            <p>Pizza Hut, Domino's Pizza <span style="color: red;">+3</span></p>
+                        </div>
+                    </div>
+                    <div class="explore__menu__card">
+                        <img src="./assets/iceCream.jpg" alt="ice cream card" class="menu__card__image" />
+                        <div class="explore__menu__card__description">
+                            <h1 class="menu__card__title">Ice Cream</h1>
+                            <p>Baskin Robins, Ibaco <span style="color: red;">+3</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore__menu__view__button">
+                    <button class="view__more__button">View More</button>
+                </div>
             </div>
         </section>
     </main>

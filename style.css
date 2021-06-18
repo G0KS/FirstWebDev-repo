@@ -219,6 +219,32 @@ body{
     margin-left: 10px;
 }
 
+.container__quote{
+    margin: 200px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote__description{
+    position: absolute;
+    color: #fff;
+    width: 90%;
+}
+
+.quote__bg__img{
+    position: absolute;
+    width: 100%;
+    z-index: -3;
+}
+
+.quote__image{
+    width: 100%;
+    opacity: 90%;
+    border-radius: 10px;
+}
+
 @media (min-width: 768px){
     .navbar{
         height: 70px;
@@ -325,17 +351,32 @@ body{
     }    
 
     .container__stay__updated{
+        width: 100%;
         display: flex;
         justify-content: center;
     }
 
     .stay__updated__email{
         width: 280px;
+        padding: 7px;
     }
 
     .stay__updated__button{
         padding: 9px 20px;
         margin-left: 3px;
+    }
+    
+    .container__quote{
+        margin: 250px 0;
+    }
+
+    .quote__image{
+        height: 350px;
+    }
+
+    .quote__description{
+        font-size: 23px;
+        padding: 117px 0;
     }
 
 }
@@ -407,6 +448,32 @@ body{
     
     .r__img__one, .r__img__two, .r__img__three, .r__img__four{
         border-radius: 8px;
+    }
+
+    .stay__updated__title{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .stay__updated__email{
+        width: 360px;
+    }
+
+    .stay__updated__button{
+        padding: 16px 20px;
+    }
+
+    .container__quote{
+        margin: 400px 0;
+    }
+
+    .quote__image{
+        height: 600px;
+    }
+
+    .quote__description{
+        font-size: 27px;
+        padding: 140px 0;
     }
 
 }
